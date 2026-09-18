@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>米子ハーミー歯科 SNSリンク集</title>
+<meta name="description" content="米子ハーミー歯科の公式SNS（YouTube・Instagram・X・note）のリンク集です。歯に関する情報を発信しています。">
+<style>
+  :root{
+    --pink:#ED9FB6; --pink-soft:#F7CCD9;
+    --green:#9FD483; --blue:#7CCDDF; --yellow:#DACB56;
+    --ink:#332B24; --muted:#8D8880; --bg:#EFEEEA; --tile:#FDFDFB;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:'Hiragino Sans','Noto Sans JP','Yu Gothic',sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding:28px 20px 44px; line-height:1.6;
+  }
+  .wrap{max-width:520px;margin:0 auto}
+
+  header{text-align:center;margin-bottom:26px}
+  header img{width:min(250px,66%);height:auto;display:block;margin:0 auto 14px}
+  header .lead{font-size:15px;color:var(--muted);letter-spacing:.02em}
+
+  .card{
+    display:flex; align-items:center; gap:16px;
+    background:var(--tile); border-radius:22px;
+    padding:18px 18px 18px 16px; margin-bottom:14px;
+    text-decoration:none; color:inherit;
+    box-shadow:0 2px 10px rgba(51,43,36,.06);
+    position:relative; overflow:hidden;
+  }
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px}
+  .card.yt::before{background:var(--pink)}
+  .card.ig::before{background:var(--yellow)}
+  .card.note::before{background:var(--green)}
+  .card.x::before{background:var(--ink)}
+
+  .thumb{
+    width:74px;height:74px;flex:0 0 74px;
+    display:flex;align-items:center;justify-content:center;
+    border-radius:50%;overflow:hidden;
+  }
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+
+  .body{flex:1;min-width:0;display:block}
+  .name{display:block;font-size:20px;font-weight:700;letter-spacing:.02em}
+  .desc{display:block;font-size:13.5px;color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .chev{font-size:26px;color:#CBC6BE;flex:0 0 auto;line-height:1}
+
+  .card.soon{opacity:.62;pointer-events:none}
+  .badge{
+    display:inline-block;margin-left:8px;padding:2px 9px;border-radius:999px;
+    background:#EAE8E2;color:var(--muted);font-size:11.5px;font-weight:700;vertical-align:middle;
+  }
+
+  .foot{margin-top:12px;text-align:center}
+  .foot a{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    width:80%;margin:0 auto;padding:16px 20px;border-radius:999px;
+    background:var(--pink-soft);color:var(--ink);text-decoration:none;
+    font-size:17px;font-weight:700;letter-spacing:.03em;
+    box-shadow:0 2px 10px rgba(51,43,36,.06);
+  }
+  .foot a .chev{color:var(--ink);opacity:.45}
+  .foot p{margin-top:16px;font-size:12.5px;color:var(--muted)}
+  @media (max-width:359px){
+    body{padding-left:14px;padding-right:14px}
+    .card{gap:12px;padding:16px 12px 16px 14px}
+    .thumb{width:60px;height:60px;flex-basis:60px}
+    .name{font-size:18px}
+    .desc{font-size:12px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="assets/logo.svg" alt="米子ハーミー歯科">
+    <p class="lead">公式SNSのご案内</p>
+  </header>
+
+  <a class="card yt" href="https://www.youtube.com/@yonagoharmychannel">
+    <span class="thumb"><img src="assets/youtube.png" alt=""></span>
+    <span class="body">
+      <span class="name">YouTube</span>
+      <span class="desc">歯のことを動画で解説</span>
+    </span>
+    <span class="chev">›</span>
+  </a>
+
+  <a class="card ig" href="https://www.instagram.com/yonago_harmy_shika/">
+    <span class="thumb"><img src="assets/instagram.png" alt=""></span>
+    <span class="body">
+      <span class="name">Instagram</span>
+      <span class="desc">歯の豆知識とクイズ</span>
+    </span>
+    <span class="chev">›</span>
+  </a>
+
+  <a class="card x" href="https://x.com/harmyshikax">
+    <span class="thumb"><img src="assets/x.png" alt=""></span>
+    <span class="body">
+      <span class="name">X（旧Twitter）</span>
+      <span class="desc">歯のワンポイント情報</span>
+    </span>
+    <span class="chev">›</span>
+  </a>
+
+  <a class="card note" href="https://note.com/harmyshika">
+    <span class="thumb"><img src="assets/note.png" alt=""></span>
+    <span class="body">
+      <span class="name">note</span>
+      <span class="desc">歯の知識を読みもので</span>
+    </span>
+    <span class="chev">›</span>
+  </a>
+
+  <div class="foot">
+    <a href="https://yonago-harmy-dc.com">公式サイトはこちら<span class="chev">›</span></a>
+    <p>米子ハーミー歯科<br>〒683-0853 鳥取県米子市両三柳2296番19<br>TEL 0859-21-7557</p>
+  </div>
+
+</div>
+</body>
+</html>
